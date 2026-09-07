@@ -1,0 +1,22 @@
+{
+  "products": [
+    { "id": 1, "name": "Bougie Massage Premium", "price": 15000, "category": "bien-etre", "description": "Bougie de massage parfumée, usage double", "image": "/images/bougie.jpg", "stock": 25, "status": "active" },
+    { "id": 2, "name": "Huile Essentielle Relaxante", "price": 8500, "category": "bien-etre", "description": "Huile de massage naturelle bio", "image": "/images/huile.jpg", "stock": 40, "status": "active" },
+    { "id": 3, "name": "Lingerie Fine Noire", "price": 12000, "category": "lingerie", "description": "Ensemble lingerie élégant, tailles S-XL", "image": "/images/lingerie.jpg", "stock": 15, "status": "active" },
+    { "id": 4, "name": "Accessoire Silicone Premium", "price": 18000, "category": "accessoires", "description": "Accessoire intime en silicone médical", "image": "/images/accessoire.jpg", "stock": 30, "status": "active" },
+    { "id": 5, "name": "Kit Découverte Couple", "price": 25000, "category": "kits", "description": "Coffret complet pour couples", "image": "/images/kit.jpg", "stock": 10, "status": "active" },
+    { "id": 6, "name": "Massage Oil Set", "price": 22000, "category": "bien-etre", "description": "Set de 3 huiles essentielles", "image": "/images/oil-set.jpg", "stock": 18, "status": "active" },
+    { "id": 7, "name": "Satin Sleep Mask", "price": 5500, "category": "accessoires", "description": "Masque de nuit en satin", "image": "/images/mask.jpg", "stock": 50, "status": "active" },
+    { "id": 8, "name": "Couples Play Card Game", "price": 7500, "category": "kits", "description": "Jeu de cartes pour couples", "image": "/images/cards.jpg", "stock": 35, "status": "active" }
+  ],
+  "orders": [
+    { "id": 1, "customer_id": 1, "customer_name": "Client Anonyme #1", "customer_phone": "+242061111111", "items": [{ "product_id": 1, "product_name": "Bougie Massage Premium", "qty": 2, "unit_price": 15000, "total": 30000 }], "subtotal": 30000, "delivery_fee": 0, "total": 30000, "status": "delivered", "delivery_method": "click-collect", "delivery_address": null, "anonymous_packaging": true, "created_at": "2026-09-01T10:00:00Z", "updated_at": "2026-09-01T10:00:00Z" },
+    { "id": 2, "customer_id": 2, "customer_name": "Client Anonyme #2", "customer_phone": "+242062222222", "items": [{ "product_id": 3, "product_name": "Lingerie Fine Noire", "qty": 1, "unit_price": 12000, "total": 12000 }], "subtotal": 12000, "delivery_fee": 2500, "total": 14500, "status": "shipped", "delivery_method": "delivery", "delivery_address": "Bacongo, près de l'église", "anonymous_packaging": true, "created_at": "2026-09-03T14:00:00Z", "updated_at": "2026-09-03T14:00:00Z" },
+    { "id": 3, "customer_id": 3, "customer_name": "Client Anonyme #3", "customer_phone": "+242063333333", "items": [{ "product_id": 5, "product_name": "Kit Découverte Couple", "qty": 1, "unit_price": 25000, "total": 25000 }], "subtotal": 25000, "delivery_fee": 0, "total": 25000, "status": "pending", "delivery_method": "delivery", "delivery_address": "Talangaï, immeuble Congo", "anonymous_packaging": true, "created_at": "2026-09-05T09:00:00Z", "updated_at": "2026-09-05T09:00:00Z" }
+  ],
+  "customers": [
+    { "id": 1, "name": "Client Anonyme #1", "phone": "+242061111111", "verified": true, "created_at": "2026-09-01" },
+    { "id": 2, "name": "Client Anonyme #2", "phone": "+242062222222", "verified": true, "created_at": "2026-09-03" },
+    { "id": 3, "name": "Client Anonyme #3", "phone": "+242063333333", "verified": false, "created_at": "2026-09-05" }
+  ]
+}
